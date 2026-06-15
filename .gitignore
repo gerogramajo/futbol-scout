@@ -1,0 +1,24 @@
+# Entorno virtual
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (archivos pesados no van al repo)
+data/raw/
+*.csv
+*.parquet
+
+# Processed sí va (imágenes, resultados)
+!data/processed/
+
+# OS
+.DS_Store
+Thumbs.db
